@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio, Parasite MobileWeb</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="apple-touch-icon=precomposed" href="#">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./css/display_none_scrollbar.css">
+    <link rel="stylesheet" href="./css/parasite.css">
+    <link rel="stylesheet" href="./css/ticket.css">
+    <link rel="stylesheet" href="./css/bgparasite.css">
+    <!-- Plugin JS -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- Page JS -->
+    <!-- <script src="./js/calHeight.js"></script> -->
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <!-- Header -->
+        <header>
+            <!-- Hamburger Menu -->
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <!-- /Hamburger Menu -->
+            <!-- 햄버거 메뉴 클릭시 보이는 GNB메뉴 -->
+            <nav class="mobile_gnb">
+              <ul class="gnb">
+                  <li><a href="./index.html">HOME</a></li>
+                  <li><a href="./gates.html">Gates&nbsp;Of&nbsp;Wonders</a></li>
+                  <li><a href="./quatre.html">Quatre</a></li>
+                  <li><a href="./wladimir.html">Wladimir the cat</a></li>
+                  <li><a href="./Jewelry.html">High&nbsp;Jewelry</a></li>
+                  <li><a href="#">SHARE</a></li>
+              </ul>
+              <ul class="sns">
+                  <li><a href="#" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                  <li><a href="#" class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              </ul>
+          </nav>
+            <!-- /햄버거 메뉴 클릭시 보이는 GNB메뉴 -->
+        </header>
+        <!-- /Header -->
+        <!-- Contents -->
+        <main id="contents">
+            <!-- Search Form | Hover 검색창 -->
+            <form action="#">
+                <fieldset>
+                    <div class="box">
+                        <div class="search_container">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Search..." autocomplete="off">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <!-- /Search Form | Hover 검색창 -->
+            <!-- Contents Section -->
+            <section class="promotion">
+                <p>
+                  GATES OF WONDERS
+                </p>
+                <p>
+                  이번 시즌, 평범한 것들이 특별하게 바뀝니다. <br>
+                  부쉐론 엠버서더들이 놀라운 세계로 향하는 문을 열어줍니다. <br>
+                  꿈이 현실이 되는 문 너머에서는 환상적인 이야기가 시작됩니다.  
+                </p>
+            </section>
+            <!-- /Contents Section -->
+            <!-- Youtube Section -->
+            <section class="youtube">
+                <iframe
+                        src="boucheron/00.mp4"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="allowfullscreen">
+                </iframe>
+            </section>
+            <!-- /Youtube Section -->
+            <!-- Area Script Section -->
+            <section class="area">
+                <h3>Our Maison</h3>
+                <p>
+                    <button>Family Spirit</button>
+                    <button>Freedom to Create</button>
+                    <button>The Sense of Style</button>
+                    <button>Sustainability</button>
+                    <button id="dots">...</button>
+
+                    <span id="more">
+                        <button>Frédéric Boucheron</button>
+                        <button>A duo of women</button>
+                        <button>Wladimir the cat</button>
+                        <button>Welcome to the Maison</button>
+                    </span>
+
+                    <button id="myBtn">+MORE</button>
+                </p>
+            </section>
+            <!-- /Area Script Section -->
+        </main>
+        <!-- /Contents -->
+    </div>
+        <!-- Footer -->
+        <footer>
+          <p>
+              <img src="./boucheron/logo-footer.png" alt="제작사로고">
+          </p>
+          <div class="copyright">
+              <p>
+                  &copy; Boucheron
+              </p>
+          </div>
+      </footer>
+    <!-- /Footer -->
+<script src="./js/ticket.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#wrap {
+  background-image: url(../boucheron/han1.png);
+  /* background-image: url(../images/poster_mobile.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}

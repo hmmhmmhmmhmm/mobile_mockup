@@ -1,0 +1,43 @@
+@charset "utf-8";
+#wrap {
+    background: #000;
+    background-image: url(../boucheron/cat.jpg);
+    /* background-size: contain; */ /* 원본 비율을 유지하며 요소에 맞게 조정 */
+    background-repeat: no-repeat; /* 배경 반복 금지 */
+    background-position: center; /* 배경을 가운데에 정렬 */
+    
+}
+input[id="menuicon"]+label {
+    background: none;
+}
+header {
+    position: relative;
+}
+/* Ticket 페이지 링크 */
+.ticket {
+    position: absolute;
+    right: 5%;
+    top: 14px;
+    z-index: 1;
+    padding-right: 10px;
+}
+.ticket button {
+    width: 114px;
+    height: 32px;
+    background-color: rgba(255 , 255, 255, 40%);
+    font-family: 'Lato',sans-serif;
+}
+
+/* Contents */
+/* YouTube Section */
+#contents .youtube {
+    padding: 0 10px;
+    transform: translateY(-100%);
+}
+#contents .youtube iframe {
+    width: 200px;
+    height: 100% !important;
+
+}
+
+
